@@ -1,5 +1,6 @@
 import ProfileCard from "./components/ProfileCard";
 import SkillsList from "./components/SkillsList";
+import CertificationsList from "./components/CertificationsList";
 
 function App() {
     return(
@@ -13,6 +14,8 @@ function App() {
             />
 
             <SkillsList />
+
+            <CertificationsList />
 
         </div>
     </>
